@@ -134,11 +134,22 @@ main{
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    padding: 0
+    margin: 0;
 }
 
 .info-description{
-    color#474747;
-font-size: 20px;
-font-weight: 700;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* what i do section start here  */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
 }
