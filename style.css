@@ -92,9 +92,13 @@ nav li a {
 
 /* main section start here */
 
-main{
-    max-width:1140px ;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
 }
 
 .section-title {
@@ -120,36 +124,65 @@ main{
   margin: 130px 0;
 }
 
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
 
-.about-info{
-    text-align: center;
+.about-info {
+  text-align: center;
 }
 
-.info-title{
-    color: #757575;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400;
-    margin: 0;
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
 }
 
-.info-description{
-    color:#474747;
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0;
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
 }
 
 /* what i do section start here  */
 
-#what-i-do-description{
-    padding: 30px 150px;
+#what-i-do-description {
+  padding: 30px 150px;
 }
 
-.skill-container{
-    display: flex;
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Resume section start here  */
+
+.resume-column-title {
+  color:#474747;
+  font-size: 30px;
+  font-weight: 700;
 }
